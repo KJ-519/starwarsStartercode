@@ -15,7 +15,7 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #a4a4a4;
 }
 
 
@@ -28,8 +28,26 @@ h1 {
 
 /* computer */
 @media screen and (min-width: 600px) {
-
+a{
+  color: yellow;
+}
 
 
 }
 
+.legoyoda {
+border: 5px;
+display: flex;
+justify-content: center;
+}
+
+.lego {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+
+.yoda {
+  display: flex;
+  justify-content: space-evenly;
+}
