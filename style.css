@@ -31,23 +31,55 @@ h1 {
 a{
   color: yellow;
 }
-
-
+a:hover {
+color:red
 }
-
 .legoyoda {
-border: 5px;
-display: flex;
-justify-content: center;
-}
-
-.lego {
+  border: 5px;
   display: flex;
   justify-content: center;
-  color: yellow;
+  }
+  
+  .lego {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+  }
+  
+  .yoda {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
 }
 
-.yoda {
-  display: flex;
-  justify-content: space-evenly;
-}
+
+
+
+@media screen and (max-width: 600px) {
+  a{
+    color: yellow;
+  }
+  a:hover {
+    color:red
+    }
+  .legoyoda {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .lego {
+      display: flex;
+      justify-content: center;
+      color: yellow;
+    }
+    
+    .yoda {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+  }
+  
