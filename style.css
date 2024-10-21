@@ -46,6 +46,9 @@ color:red
     color: yellow;
   }
   
+  body {
+    background-color: black;
+  }
   .yoda {
     display: flex;
     justify-content: space-evenly;
